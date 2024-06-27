@@ -1,0 +1,161 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 29px;
+    text-align: center;
+    border: solid #ffffff 
+}
+
+.boasvindas{
+    padding: 10;
+}
+
+ul {
+    list-style-type: none; 
+    padding-left: 0; 
+    line-height: 1.6; 
+}
+
+ul li {
+    margin-bottom: 10px; /
+}
+
+
+header h1 {
+    margin: 0;
+}
+
+.video-container {
+    max-width: 1000px;
+    text-align: center;
+}
+
+iframe {
+    width: 100%;
+    max-width: 800px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a[href="nutricao.html"] {
+    color: #00c6ff; 
+}
+
+nav ul li a[href="dieta.html"] {
+    color: #00c6ff; 
+}
+
+nav ul li a[href="produtos.html"] {
+    color: #00c6ff; 
+}
+
+a[href="politica.html"] {
+    color: #00c6ff; 
+}
+
+a[href="termos.html"] {
+    color: #00c6ff; 
+}
+
+a[href="https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/L13709compilado.htm"] {
+    color: #00c6ff; 
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    text-align: justify;
+}
+
+main h2 {
+    text-align: center;
+}
+
+main ul {
+    padding-left: 20px;
+}
+
+main ul li {
+    margin-bottom: 10px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-block: 10x;
+}
+
+.image-container img {
+    width: 400px;
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #fff;
+    border-radius: 8px;
+}
+
+
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    nav ul li a {
+        padding: 8px 12px;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    .image-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-container img {
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+}
+
